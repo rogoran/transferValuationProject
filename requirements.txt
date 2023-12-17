@@ -1,3 +1,7 @@
 matplotlib
 pandas
 seaborn
+lightgbm 
+xgboost 
+scikit-learn
+hopsworks
