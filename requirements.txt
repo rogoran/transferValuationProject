@@ -5,4 +5,5 @@ lightgbm
 xgboost 
 scikit-learn
 hopsworks
-catboost
+huggingface_hub
+ipywidgets
