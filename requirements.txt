@@ -5,3 +5,4 @@ lightgbm
 xgboost 
 scikit-learn
 hopsworks
+catboost
