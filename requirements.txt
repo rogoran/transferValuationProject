@@ -7,3 +7,4 @@ scikit-learn
 hopsworks
 huggingface_hub
 ipywidgets
+kaggle
