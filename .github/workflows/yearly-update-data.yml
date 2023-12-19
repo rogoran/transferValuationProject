@@ -25,10 +25,11 @@ jobs:
       - name: Install Jupyter
         run: |
           pip install jupyter
-      - name: execute python workflows from bash script
+      - name: execute jupyter workflows from bash script
         env:
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
           KAGGLE_USERNAME: ${{secrets.KAGGLE_USERNAME}}
           KAGGLE_KEY: ${{secrets.KAGGLE_KEY}}
           
-        run: chmod +x yearly-update-data.sh
+        run: jupyter execute data-analysis.ipynb
+        shell: bash
