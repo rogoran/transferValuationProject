@@ -7,6 +7,5 @@ scikit-learn
 hopsworks
 catboost
 kaggle
-dotenv
 huggingface_hub
 ipywidgets
