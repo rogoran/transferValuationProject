@@ -31,5 +31,5 @@ jobs:
           KAGGLE_USERNAME: ${{secrets.KAGGLE_USERNAME}}
           KAGGLE_KEY: ${{secrets.KAGGLE_KEY}}
           
-        run: jupyter execute data-analysis.ipynb
+        run: jupyter execute dataset_analysis.ipynb
         shell: bash
