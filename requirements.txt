@@ -6,3 +6,5 @@ xgboost
 scikit-learn
 hopsworks
 catboost
+kaggle
+dotenv
