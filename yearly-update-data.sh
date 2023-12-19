@@ -2,4 +2,4 @@
 
 set -e
 
-python dataset-analysis.py
+python dataset-analysis.ipynb

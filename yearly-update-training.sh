@@ -2,4 +2,4 @@
 
 set -e
 
-python training-pipeline.py
+python training-pipeline.ipynb
