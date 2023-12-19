@@ -2,4 +2,5 @@
 
 set -e
 
-python training-pipeline.ipynb
+# Run the Jupyter Notebook using nbconvert
+jupyter nbconvert --execute --to notebook --inplace training-pipeline.ipynb
