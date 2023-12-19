@@ -8,3 +8,5 @@ hopsworks
 catboost
 kaggle
 dotenv
+huggingface_hub
+ipywidgets
