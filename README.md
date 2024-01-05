@@ -46,4 +46,9 @@ The model was then used to create an inference pipeline on hugging face that let
 Even if there is a big difference between the actual and predicted value for most players, there are some reasonably close predictions like the first and last prediction.
 
 ## How-to-run
+Both the prediction and monitoring app are hosted on huggingface with SDK-versions 4.7.1 and 4.10.0 respectively. The necessary Python libraries are gradio, requests, hopsworks, joblib, pandas, scikit-learn for both huggingface apps. 
+
+The backend pipelines and the frontend app is set to update once every year with Github workflows. The workflows can be run manually. However, if it is run earlier than the new season (new year) it will only retrain the model on the same data used in the already uploaded model. 
+
+In order to run the various pipelines, please download the “requirements.txt” and run “pip install -r requirements.txt” to fetch and install the necessary libraries. Python version 3.10.0 was used for this project but will also work for Python version 3.9.x
 
